@@ -1,106 +1,119 @@
-
- /* ==============================
+/* ==============================
      Animation for bigger screen
 =============================== */
 
-@keyframes down{
-  0%{
-      transform: translateY(-100px);
-  }
-
-  100%{
-      transform: translateY(0);
-  }
-}
-
-
-header{
+header {
   animation: down 1s 1;
 }
 
-h1{
-   animation: ltr 2s 1;
-   
-}
-
-
-
-@keyframes ltr{
-  0%{
-      transform: translateX(-100px);
-      color: cyan;
+@keyframes down {
+  0% {
+    transform: translateY(-100px);
   }
 
-50%{
-  transform: translateX(150px);
-}
-
-
-
-70%{
-  transform: translateX(-150px);
-}
-
-  100%{
-      transform: translateX(0);
+  100% {
+    transform: translateY(0);
   }
 }
 
-
-
-.sub-ul, .sub-sub-ul{
-  animation: hoverrr 1s 1;
+h1 {
+  animation: utd 1.5s 1;
 }
 
-@keyframes hoverrr{
+@keyframes utd {
+  0% {
+    transform: translatex(-100px);
+    color: cyan;
+  }
 
+  50% {
+    transform: translatex(150px);
+    color: cyan;
+  }
 
-0%{
-  opacity: 0;
+  70% {
+    transform: translatex(-150px);
+  }
+
+  100% {
+    transform: translatey(0);
+  }
+}
+.main-list {
+  animation: ltr 1.5s 1 ;
+}
+@keyframes ltr {
+  0% {
+    transform: translatey(-10px);
+    color: cyan;
+  }
+
+  50% {
+    transform: translatey(15px);
+    color: cyan;
+  }
+
+  70% {
+    transform: translatey(-15px);
+  }
+
+  100% {
+    transform: translatey(0);
+  }
+}
+.sub-ul,
+.sub-sub-ul {
+  animation: hoverrr 0.6s 1;
 }
 
-100%{
-opacity: 1;
+@keyframes hoverrr {
+  0% {
+    opacity: 0;
+    transform: translatex(-1000px);
+    scale: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+
+  }
 }
 
-
-}
-
-
-span{
+span {
   animation: heart 2s infinite linear;
 }
 
-@keyframes heart{
-  0%, 100%{
-opacity: 0;
+@keyframes heart {
+  0%,
+  100% {
+    opacity: 0;
   }
 
-  50%{
-opacity: 1;
+  50% {
+    opacity: 1;
   }
 }
-
 
 /* ==============================
    Animation for mobile
 =============================== */
 
-
-.show-on-click, .sub-div, .sub-sub-div{
+.show-on-click,
+.sub-div,
+.sub-sub-div {
   animation: move 1s 1;
 }
 
-@keyframes move{
-  0%{
-      transform: translateX(100px);
+@keyframes move {
+  0% {
+    transform: translatey(20px);
   }
 
-  50%{
-      transform: translateX(-100px);
+  50% {
+    transform: translatey(-20px);
   }
 
-  100%{
-      transform: translateX(0);
+  100% {
+    transform: translatey(0);
   }
 }
