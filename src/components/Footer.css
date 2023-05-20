@@ -1,7 +1,12 @@
-
-footer {
+.myFooter footer {
   background-color: #1b1b1b;
   padding: 20px 0;
   text-align: center;
   font-size: 18px;
+}
+
+.myFooter .mo {
+  background-color: #1b1b1b;
+  box-shadow: 0px 50px 100px #000;
+  border-radius: 10px;
 }

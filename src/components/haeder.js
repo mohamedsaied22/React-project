@@ -1,11 +1,11 @@
-import React from 'react';
-import { Link, NavLink  } from "react-router-dom";
-import './Header.css';
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
+import "./Header.css";
 
 const Haeder = () => {
   return (
     <div>
-            <header className="hide-when-mobile">
+      <header className="hide-when-mobile mo">
         <h1>
           <Link to="/">MoHappy</Link>
         </h1>
@@ -136,6 +136,6 @@ const Haeder = () => {
       </header>
     </div>
   );
-}
+};
 
 export default Haeder;

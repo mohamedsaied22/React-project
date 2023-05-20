@@ -1,14 +1,8 @@
+import React from "react";
+import "./MainContent.css";
 
-
-import React from 'react';
-import './MainContent.css';
-
-const MainContent = ({pageName}) => {
-  return (
-    <main>
-      {pageName} 
-    </main>
-  );
-}
+const MainContent = ({ pageName }) => {
+  return <main>{pageName}</main>;
+};
 
 export default MainContent;
